@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'playTime';
+
+  selectedValue = 'label';
+  otherValues = [
+    'label1', 'label2', 'label3'
+  ];
 }
